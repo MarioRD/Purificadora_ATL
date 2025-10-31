@@ -1,0 +1,21 @@
+.hero-gradient {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+}
+.process-step:hover .step-icon {
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+}
+.water-drop {
+  position: relative;
+}
+.water-drop::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: rgba(59, 130, 246, 0.1);
+  border-radius: 50%;
+}
